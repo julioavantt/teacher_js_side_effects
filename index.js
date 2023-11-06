@@ -9,6 +9,8 @@ function sum(num) {
 
 console.log(sum(10));
 
+//! Otra función dependiente de efectos secundarios
+
 function confioEnOutsideShared() {
   return outsiderShared;
 }
